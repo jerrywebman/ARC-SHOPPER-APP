@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+footer.section-footer{
+    background-color: #313131;
+    min-width: 100%;
+}
+
+.container-fluid {
+    margin-top: 50px
+}
+
+footer h6.title{
+    color: white;
+}
+.footer-copyright {
+    margin-top: 13px
+}
+
+a {
+    text-decoration: none !important;
+    color: #c4c0c0
+}
+
+.description {
+    font-size: 12px
+}
+
+.fa-facebook-f {
+    color: #3b5999
+}
+
+.fa-instagram {
+    color: #e4405f
+}
+
+.fa-youtube {
+    color: #cd201f
+}
+
+.fa-twitter {
+    color: #55acee
+}
+
+.logo-footer{
+    height:30px;
+}
+
+.footer-copyright p {
+    margin-top: 10px
+}
