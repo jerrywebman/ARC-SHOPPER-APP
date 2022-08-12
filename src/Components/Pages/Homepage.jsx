@@ -7,6 +7,7 @@ import Hero from "../Hero/Hero";
 import Products from "../Product/Products";
 import Testimony from "../Testimony/Testimony";
 import Newsletter from "../Newsletter";
+import HomeCarousel from "../Carousel/Homepage";
 
 const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ const Homepage = () => {
         <Middlebar />
         <Menu />
       </header>
+
       <Hero />
       <Products />
       <Testimony />

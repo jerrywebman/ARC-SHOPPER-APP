@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+git branch -M main
+git remote add origin https://github.com/jerrywebman/ARC-SHOPPER-APP.git
+git push -u origin main
+
 In the project directory, you can run:
 
 ### `npm start`

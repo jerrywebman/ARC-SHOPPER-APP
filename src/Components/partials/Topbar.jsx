@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "reactstrap";
 
 const Topbar = () => {
   return (
@@ -65,20 +66,26 @@ const Topbar = () => {
                     </li>
                   </ul>
                 </div>
+
                 <div className="top_bar_user">
-                  <div className="user_icon">
-                    <img
-                      src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918647/user.svg"
-                      alt="foot_img"
-                    />
-                  </div>
-                  <div className="text-lg" style={{ fontWeight: "bold" }}>
-                    <h3>
-                      <Link to="/register">Register</Link>
-                    </h3>
+                  <div className="user_icon"></div>
+                  <div>
+                    <Link to="/register">
+                      <Button color="success" outline>
+                        <div className="user_icon">
+                          <img
+                            src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560918647/user.svg"
+                            alt="foot_img"
+                          />
+                        </div>
+                        Register
+                      </Button>
+                    </Link>
                   </div>
                   <div>
-                    <Link to="/login">Sign in</Link>
+                    <Link to="/login">
+                      <Button color="success">Sign in</Button>
+                    </Link>
                   </div>
                 </div>
               </div>

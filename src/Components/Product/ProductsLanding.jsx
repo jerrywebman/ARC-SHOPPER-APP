@@ -49,7 +49,7 @@ const ProductsLanding = () => {
                     data-bs-toggle="pill"
                     href="#tab-3"
                   >
-                    Fresh
+                    Logistics
                   </a>
                 </li>
               </ul>

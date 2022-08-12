@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "reactstrap";
 
 const HeroLanding = () => {
   return (
@@ -9,41 +10,30 @@ const HeroLanding = () => {
           <div class="col-10 col-sm-8 col-lg-6">
             <center>
               <img
-                src="https://cartona.com/img/mob/1.png"
+                // src="img/woman_holding_phone.jpeg"
+                src="https://thumbs.dreamstime.com/b/delivery-courier-service-concept-set-man-riding-bicycle-driving-moped-scooter-to-deliver-food-packages-time-holding-189534845.jpg"
                 class="d-block mx-lg-auto img-fluid"
                 alt="Bootstrap Themes"
-                width="350"
-                height="500"
                 loading="lazy"
               />
             </center>
           </div>
           <div class="col-lg-6">
-            <h1 class="display-6 fw-bold mb-3">
-              Digitizing The Traditional Trade Market
-            </h1>
+            <h1 class="display-6 fw-bold mb-3">Making</h1>
+            <h1 class="display-6 fw-bold mb-3">Trade Easier</h1>
             <p class="lead">
-              Through technology, automation and telecommunication, ARC ensures
-              the fast availability of consumer packaged goods to both consumers
-              and retailers in an easy way.
+              Harnessing the power of technology, automation and
+              telecommunication, ARC ensures the fast availability of consumer
+              packaged goods to both consumers and retailers in an easy way.
             </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <Link to="/" className="d-block mb-2" data-abc="true">
-                <img
-                  className="img-responsive"
-                  src="https://i.imgur.com/nkZP7fe.png"
-                  height="40"
-                  alt="foot_img"
-                />
+              <Link to="#" className="d-block mb-2" data-abc="true">
+                <Button color="success" outline>
+                  Join us
+                </Button>
               </Link>
-              <Link to="/" className="d-block mb-2" data-abc="true">
-                <img
-                  className="img-responsive"
-                  src="https://i.imgur.com/47q2YGt.png"
-                  height="40"
-                  width="123"
-                  alt="foot_img"
-                />
+              <Link to="#" className="d-block mb-2" data-abc="true">
+                <Button color="success">Learn More</Button>
               </Link>
             </div>
           </div>

@@ -7,6 +7,7 @@ import Hero from "../../Hero/HeroLanding";
 import SectionOne from "../../Section/SectionOne";
 import Products from "../../Product/ProductsLanding";
 import Contact from "../../Contact/Contact";
+import HomeCarousel from "./../../Carousel/Homepage";
 
 const LandingPage = () => {
   return (
@@ -15,8 +16,10 @@ const LandingPage = () => {
         <Topbar />
         <Middlebar />
         <Menu />
+        <HomeCarousel />
         <Hero />
       </header>
+
       <section className="mt-5 bg-light">
         <SectionOne />
         <Products />
