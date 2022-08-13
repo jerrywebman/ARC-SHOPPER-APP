@@ -39,7 +39,7 @@ const SectionOne = () => {
                         In addition to this, we provide diverse remunerative (income opportunities) and 
                         non-remunerative (charged) services for various arms within the distribution chain.
                     </p> */}
-                <div className="row row-sm-6">
+                <div className="row">
                   <div className="col col-md-6 col-sm-6 col-lg-3">
                     <div
                       className="product-offer mt-3 mb-10"
@@ -57,7 +57,7 @@ const SectionOne = () => {
                     </div>
                   </div>
 
-                  <div className="col col-md-6 col-sm-6 col-lg-3">
+                  <div className="col col-md-6 col-sm-2 col-lg-3">
                     <div
                       className="product-offer mt-3 mb-10"
                       style={{ height: "10em" }}
@@ -69,7 +69,9 @@ const SectionOne = () => {
                       />
                       <div className="offer-text">
                         <h6 className="text-white text-uppercase mb-3"></h6>
-                        <Button color="success">Investor</Button>
+                        <Button color="success" outline>
+                          Investor
+                        </Button>
                       </div>
                     </div>
                   </div>
@@ -85,9 +87,7 @@ const SectionOne = () => {
                       />
                       <div className="offer-text">
                         <h6 className="text-white text-uppercase mb-3"></h6>
-                        <Button color="success" outline>
-                          Consumer
-                        </Button>
+                        <Button color="success">Consumer</Button>
                       </div>
                     </div>
                   </div>
@@ -126,7 +126,7 @@ const SectionOne = () => {
                 </Link>
               </div>
 
-              <div className="col-sm-12 col-lg-8">
+              <div className="col-sm-12 col-lg-8 mt-3">
                 <h4 className="display-6 fw-bold text-white">
                   Earn money with ARC, become a logistics partner.
                 </h4>
@@ -178,7 +178,7 @@ const SectionOne = () => {
           <div className="container py-5 px-4">
             <div className="row">
               <div className="col-sm-12 col-lg-8">
-                <h3 className="display-5 fw-bold text-white">
+                <h3 className="display-5 fw-bold text-white text-center mb-3">
                   Visit Our Store
                 </h3>
               </div>
