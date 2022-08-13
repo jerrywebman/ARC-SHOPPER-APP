@@ -40,7 +40,7 @@ const SectionOne = () => {
                         non-remunerative (charged) services for various arms within the distribution chain.
                     </p> */}
                 <div className="row">
-                  <div className="col col-md-6 col-sm-6 col-lg-3">
+                  <div className="col col-md-6 col-sm-2 col-lg-3">
                     <div
                       className="product-offer mt-3 mb-10"
                       style={{ height: "10em" }}
@@ -51,7 +51,6 @@ const SectionOne = () => {
                         alt=""
                       />
                       <div className="offer-text">
-                        <h6 className="text-white text-uppercase mb-3"></h6>
                         <Button color="success">Retailers</Button>
                       </div>
                     </div>
@@ -68,14 +67,13 @@ const SectionOne = () => {
                         alt=""
                       />
                       <div className="offer-text">
-                        <h6 className="text-white text-uppercase mb-3"></h6>
                         <Button color="success" outline>
                           Investor
                         </Button>
                       </div>
                     </div>
                   </div>
-                  <div className="col col-md-6 col-sm-6 col-lg-3">
+                  <div className="col col-md-6 col-sm-2 col-lg-3">
                     <div
                       className="product-offer mt-3 mb-10"
                       style={{ height: "10em" }}
@@ -86,12 +84,11 @@ const SectionOne = () => {
                         alt=""
                       />
                       <div className="offer-text">
-                        <h6 className="text-white text-uppercase mb-3"></h6>
                         <Button color="success">Consumer</Button>
                       </div>
                     </div>
                   </div>
-                  <div className="col col-md-6 col-sm-6 col-lg-3">
+                  <div className="col col-md-6 col-sm-2 col-lg-3">
                     <div
                       className="product-offer mt-3 mb-10"
                       style={{ height: "10em" }}
@@ -102,7 +99,6 @@ const SectionOne = () => {
                         alt=""
                       />
                       <div className="offer-text">
-                        <h6 className="text-white text-uppercase mb-3"></h6>
                         <Button color="success" outline>
                           Logistics
                         </Button>
