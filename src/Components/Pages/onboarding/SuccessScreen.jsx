@@ -39,7 +39,7 @@ const SuccessScreen = () => {
                 </div>
 
                 <p className="text-center" style={{ marginTop: "4em" }}>
-                  Your password has been succeesfully reset
+                  Authentication Successful
                 </p>
                 {/* <button
                   className="btn btn-primary w-100"
