@@ -2,10 +2,11 @@ import React from "react";
 import Footer from "../../partials/Footer";
 import Topbar from "../../partials/Topbar";
 import Middlebar from "../../partials/Middlebar";
-import Menu from "../../Menu";
+import Menu from "../../partials/Menu";
 import { Link } from "react-router-dom";
 import Newsletter from "../../Newsletter";
 import Header from "../../partials/Header";
+import { Button } from "reactstrap";
 
 const ForgotPassword = () => {
   return (
@@ -50,19 +51,10 @@ const ForgotPassword = () => {
                 </p>
               </form>
 
-              <Link
-                className="btn w-100"
-                to="/otp"
-                style={{
-                  color: "white",
-                  backgroundColor: "#449f1a",
-                  height: "45px",
-                  borderRadius: "43px",
-                  marginBottom: "2em",
-                  marginTop: "2em",
-                }}
-              >
-                SEND
+              <Link to="/otp">
+                <Button color="success" className="btn w-100 p-2">
+                  SEND
+                </Button>
               </Link>
             </div>
             <p className="text-center mt-3 mb-5">

@@ -12,7 +12,7 @@ import {
 import Footer from "../../partials/Footer";
 import Topbar from "../../partials/Topbar";
 import Middlebar from "../../partials/Middlebar";
-import Menu from "../../Menu";
+import Menu from "../../partials/Menu";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";

@@ -15,22 +15,18 @@ const HeroLanding = () => {
               telecommunication, ARC ensures the fast availability of consumer
               packaged goods to both consumers and retailers in an easy way.
             </p>
-            <div className="row">
-              <div class="  col col-md-4 col-sm-2 col-lg-6">
-                <Link to="#" data-abc="true">
-                  <Button color="success" outline className="btn btn-md">
-                    Join us
-                  </Button>
-                </Link>
-              </div>
-              <div class=" col col-md-4 col-sm-2 col-lg-6">
-                <Link to="#" data-abc="true">
-                  <Button color="success" className="btn btn-md">
-                    Learn More
-                  </Button>
-                </Link>
-              </div>
-            </div>
+
+            <Link to="/register" data-abc="true" className="m-3">
+              <Button color="success" outline className="btn btn-md">
+                Join us
+              </Button>
+            </Link>
+
+            <Link to="#about-us" data-abc="true">
+              <Button color="success" className="btn btn-md">
+                Learn More
+              </Button>
+            </Link>
           </div>
           <div class="col-10 col-sm-8 col-lg-6">
             <center>

@@ -233,6 +233,16 @@ const Menu = () => {
                       contact<i className="fa fa-angle-down"></i>
                     </Link>
                   </li>
+                  <li className="page_menu_item">
+                    <Link to="/">
+                      Register<i className="fa fa-user-circle"></i>
+                    </Link>
+                  </li>
+                  <li className="page_menu_item">
+                    <Link to="/">
+                      Signin<i className="fa fa-user-o"></i>
+                    </Link>
+                  </li>
                 </ul>
 
                 <div className="menu_contact">
@@ -248,20 +258,6 @@ const Menu = () => {
                     </div>
                     <a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
                   </div>
-                </div>
-                <div className="menu_contact">
-                  <Link to="/login" className="menu_contact_item">
-                    <div className="menu_contact_icon">
-                      <i className="fa fa-sign-in"></i>
-                    </div>
-                    +38 068 005 3570
-                  </Link>
-                  <Link to="/register" className="menu_contact_item">
-                    <div className="menu_contact_icon">
-                      <i className="fa fa-envelope text-white"></i>
-                    </div>
-                    <a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
-                  </Link>
                 </div>
               </div>
             </div>

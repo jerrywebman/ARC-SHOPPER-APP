@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../partials/Footer";
 import Topbar from "../../partials/Topbar";
 import Middlebar from "../../partials/Middlebar";
-import Menu from "../../Menu";
+import Menu from "../../partials/Menu";
 import Hero from "../../Hero/HeroLanding";
 import SectionOne from "../../Section/SectionOne";
 import Products from "../../Product/ProductsLanding";

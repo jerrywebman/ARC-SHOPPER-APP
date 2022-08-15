@@ -13,7 +13,7 @@ const Footer = () => {
                 <aside className="col-md-4 mt-2">
                   <article className="mr-3">
                     {" "}
-                    <h2 className="text-start text-white">ARC</h2>
+                    <img src="img/arc-logo.png" alt="ARC logo" />
                     <p className="mt-3 description">
                       Morbi cursus porttitor enim lobortis molestie. Duis
                       gravida turpis dui, eget bibendum magna congue nec.
@@ -60,7 +60,7 @@ const Footer = () => {
                     </div>
                   </article>
                 </aside>
-                <aside className="col-sm-3 col-md-2 mt-2">
+                <aside className="col-sm-4 col-md-3 mt-2">
                   <h6 className="title">About</h6>
                   <ul className="list-unstyled">
                     <li>
@@ -89,7 +89,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </aside>
-                <aside className="col-sm-3 col-md-2 mt-2">
+                <aside className="col-sm-4 col-md-3 mt-2">
                   <h6 className="title">Helps</h6>
                   <ul className="list-unstyled">
                     <li>
@@ -151,7 +151,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </aside>
-                <aside className="col-sm-2 col-md-2 mt-2">
+                {/* <aside className="col-sm-2 col-md-2 mt-2">
                   <h6 className="title">Our app</h6>{" "}
                   <Link to="/" className="d-block mb-2" data-abc="true">
                     <img
@@ -170,7 +170,7 @@ const Footer = () => {
                       alt="foot_img"
                     />
                   </Link>
-                </aside>
+                </aside> */}
               </div>
             </section>
             <section className="footer-copyright border-top d-flex">

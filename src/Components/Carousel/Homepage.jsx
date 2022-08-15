@@ -26,6 +26,12 @@ const items = [
     caption: "Slide 3",
     key: 3,
   },
+  {
+    src: "img/Dispatch-rider.jpg",
+    altText: "Slide 4",
+    caption: "Slide 4",
+    key: 4,
+  },
 ];
 
 function HomeCarousel(args) {

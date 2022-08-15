@@ -13,7 +13,7 @@ import {
 import Footer from "../../partials/Footer";
 import Topbar from "../../partials/Topbar";
 import Middlebar from "../../partials/Middlebar";
-import Menu from "../../Menu";
+import Menu from "../../partials/Menu";
 import Newsletter from "../../Newsletter";
 import Header from "../../partials/Header";
 import { ToastContainer, toast } from "react-toastify";
