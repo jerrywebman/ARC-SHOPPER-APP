@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
+import { BsArrowRight } from "react-icons/bs";
 
 const HeroLanding = () => {
   return (
@@ -16,17 +17,23 @@ const HeroLanding = () => {
               packaged goods to both consumers and retailers in an easy way.
             </p>
 
-            <Link to="/register" data-abc="true" className="m-3">
-              <Button color="success" outline className="btn btn-md">
-                Join us
+            <Link to="/register">
+              <Button color="success">
+                Join Us
+                <BsArrowRight
+                  color="white"
+                  fontSize="1.5em"
+                  className="m-2 mr-3"
+                />
               </Button>
             </Link>
-
-            <Link to="#about-us" data-abc="true">
-              <Button color="success" className="btn btn-md">
+            <span className="m-2 mr-3"></span>
+            <a href="#about-us">
+              <Button color="success" outline>
                 Learn More
+                <BsArrowRight color="green" fontSize="1.5em" className="m-2" />
               </Button>
-            </Link>
+            </a>
           </div>
           <div class="col-10 col-sm-8 col-lg-6">
             <center>

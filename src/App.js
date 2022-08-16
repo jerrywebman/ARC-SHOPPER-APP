@@ -2,6 +2,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./Components/Pages/Homepage";
+import AboutUs from "./Components/Pages/About-us";
+import Services from "./Components/Pages/Services";
 import Login from "./Components/Pages/onboarding/Login";
 import Register from "./Components/Pages/onboarding/Register";
 import ForgotPassword from "./Components/Pages/onboarding/ForgotPassword";
@@ -17,6 +19,8 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/about-us" element={<AboutUs />} />
+          <Route exact path="/services" element={<Services />} />
           <Route exact path="/home" element={<Homepage />} />
           <Route exact path="/login" element={<Login />} />
           <Route exact path="/register" element={<Register />} />

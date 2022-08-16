@@ -110,12 +110,12 @@ const Menu = () => {
                       </ul>
                     </li>
                     <li>
-                      <Link to="/">
+                      <Link to="/services">
                         Services<i className="fas fa-chevron-down"></i>
                       </Link>
                     </li>
                     <li>
-                      <Link to="/">
+                      <Link to="/#about-us">
                         About Us<i className="fas fa-chevron-down"></i>
                       </Link>
                     </li>

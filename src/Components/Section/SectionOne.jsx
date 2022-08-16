@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
+import { BsArrowRight } from "react-icons/bs";
 
 const SectionOne = () => {
   return (
@@ -22,7 +23,7 @@ const SectionOne = () => {
                 </center>
               </div>
               <div className="col-lg-8">
-                <h2 className="fw-bold mb-3">Optimized functionalities</h2>
+                <h2 className="fw-bold mb-3">Optimized Functionalities</h2>
                 <p className="lead">
                   Enabling retailers to reach their full potential
                 </p>
@@ -53,7 +54,9 @@ const SectionOne = () => {
                           alt=""
                         />
                         <div className="offer-text">
-                          <Button color="success">Retailers</Button>
+                          <Link to="/services">
+                            <Button color="success">Retailers</Button>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -68,7 +71,9 @@ const SectionOne = () => {
                           alt=""
                         />
                         <div className="offer-text">
-                          <Button color="success">Investor</Button>
+                          <Link to="/services">
+                            <Button color="success">Investor</Button>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -83,7 +88,10 @@ const SectionOne = () => {
                           alt=""
                         />
                         <div className="offer-text">
-                          <Button color="success">Consumer</Button>
+                          <Link to="/services">
+                            {" "}
+                            <Button color="success">Consumer</Button>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -99,7 +107,9 @@ const SectionOne = () => {
                           alt=""
                         />
                         <div className="offer-text">
-                          <Button color="success">Logistics</Button>
+                          <Link to="/services">
+                            <Button color="success">Logistics</Button>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -119,8 +129,15 @@ const SectionOne = () => {
           <div className="container py-5 px-4">
             <div className="row">
               <div className="col-lg-4 col-sm-12 text-center">
-                <Link to="#" className="btn btn-success btn-lg">
-                  Learn more
+                <Link to="/services">
+                  <Button color="success">
+                    Learn More
+                    <BsArrowRight
+                      color="white"
+                      fontSize="1.5em"
+                      className="m-2"
+                    />
+                  </Button>
                 </Link>
               </div>
 
@@ -138,33 +155,47 @@ const SectionOne = () => {
         <div className="conatiner">
           <div className="container col-xxl-8 px-4 py-5">
             <div className="row flex-lg-row-reverse align-items-center py-2">
-              <div className="col-sm-8 col-lg-6 text-center">
+              <div className="col-sm-8 col-lg-4 text-center">
                 <center>
                   <img
                     src="img/networks.jpg"
                     // src="https://allroundcare.ng/assets/img/prof-2.jpeg"
                     className="d-block mx-lg-auto img-fluid"
-                    alt="ARC image"
+                    alt="ARC"
                     width="600"
                     height="500"
                     loading="lazy"
                   />
                 </center>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-8" id="about-us">
                 <h2 className="fw-bold mb-3">About us</h2>
                 <p className="lead">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                  distinctio sit facilis architecto accusantium, illum quia eius
-                  eveniet harum iure ipsam id magnam obcaecati inventore sint
-                  repellat esse ipsa qui.
+                  All Round Care (ARC) is an innovative e-commerce platform that
+                  has saddled itself with the sole purpose of providing
+                  web-based solutions to everyday retail and consumer needs. 
+                  The ARC software app is our latest innovation, and specializes
+                  in e-commerce and logistics.  
                 </p>
-                <p className="lead">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-                  distinctio sit facilis architecto accusantium, illum quia eius
-                  eveniet harum iure ipsam id magnam obcaecati inventore sint
-                  repellat esse ipsa qui.
-                </p>
+                {/* <p className="lead">
+                  <span className="fw-bold text-black">WHAT WE DO:{""}</span>{" "}
+                  ARC through it’s optimised software app delivers tech-based
+                  B2B and B2C logistics solutions to both business owners and
+                  end consumers.  Our e-commerce and logistics App has been
+                  optimised to facilitate the distribution of household and
+                  fresh foods items within and throughout the entire logistics
+                  ecosystem, all the way to the end-user. 
+                </p> */}
+                <Link to="/about-us">
+                  <Button color="success">
+                    Learn More
+                    <BsArrowRight
+                      color="white"
+                      fontSize="1.5em"
+                      className="m-2"
+                    />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -181,8 +212,15 @@ const SectionOne = () => {
                 </h3>
               </div>
               <div className="col-lg-4 col-sm-12 text-center">
-                <Link to="/register" className="btn btn-success btn-lg">
-                  Register
+                <Link to="/register">
+                  <Button color="success">
+                    Register
+                    <BsArrowRight
+                      color="white"
+                      fontSize="1.5em"
+                      className="m-2"
+                    />
+                  </Button>
                 </Link>
               </div>
             </div>
